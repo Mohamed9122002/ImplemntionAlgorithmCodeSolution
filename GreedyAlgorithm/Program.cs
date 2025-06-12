@@ -31,11 +31,21 @@ namespace GreedyAlgorithm
             //// Time Complexity: O(n)
 
             #region Sorted Characters Frequencies
-            CharactersFrequencies cf = new CharactersFrequencies();
-            string msg = "Hello World";
+            //CharactersFrequencies cf = new CharactersFrequencies();
+            //string msg = "Hello World";
+            ////cf.ASCIIMethod(msg);
             //cf.ASCIIMethod(msg);
-            cf.ASCIIMethod(msg);
-            cf.AnyCodeMethod(msg);
+            //cf.AnyCodeMethod(msg);
+            #endregion
+            #region Huffman Coding
+          string  msg = "internet";
+           HuffmanCode huff = new HuffmanCode(msg);
+
+            foreach (char k in huff.codes.Keys)
+            {
+                Console.Write(k + " ");
+                Console.WriteLine(huff.codes[k]);
+            }
             #endregion
 
         }
