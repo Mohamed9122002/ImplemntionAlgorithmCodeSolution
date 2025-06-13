@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreedyAlgorithm", "GreedyAlgorithm\GreedyAlgorithm.csproj", "{DA585A37-05DD-4545-91D1-55C3BD8B234F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{F1120344-E872-4870-ADBD-AF99CA879404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DA585A37-05DD-4545-91D1-55C3BD8B234F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA585A37-05DD-4545-91D1-55C3BD8B234F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA585A37-05DD-4545-91D1-55C3BD8B234F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1120344-E872-4870-ADBD-AF99CA879404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1120344-E872-4870-ADBD-AF99CA879404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1120344-E872-4870-ADBD-AF99CA879404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1120344-E872-4870-ADBD-AF99CA879404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
